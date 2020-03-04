@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/settings"
+        app:key="settings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="beep"
+            android:summary="@string/summary_beep"
+            android:title="@string/beep"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="frontCamera"
+            android:summary="@string/camera_scan"
+            android:title="@string/front_camera"/>
+    </PreferenceCategory>
+</PreferenceScreen>
