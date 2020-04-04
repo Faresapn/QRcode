@@ -15,9 +15,11 @@
         android:screenOrientation="fullSensor"
         tools:replace="screenOrientation"
         android:supportsRtl="true"
+
         android:theme="@style/AppTheme">
         <activity android:name=".MakeQr"></activity>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,14 +29,16 @@
         <activity android:name=".QRCode.About" />
         <activity
             android:name=".QRCode.QRMainActivity"
-            android:screenOrientation="fullSensor"
-            tools:replace="screenOrientation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".QRCode.Potrait"
             android:screenOrientation="fullSensor"
             tools:replace="screenOrientation"
             android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
 
 
     </application>

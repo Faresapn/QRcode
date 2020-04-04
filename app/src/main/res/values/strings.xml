@@ -12,7 +12,9 @@
     <string name="my_github">https://github.com/faresapn</string>
     <string name="github">Github</string>
     <string name="twitter">Twitter</string>
-
+    <string name="app_id">ca-app-pub-1998515773839190~3956366501</string>
+    <string name="banner_id">ca-app-pub-1998515773839190/1330203168</string>
+    <string name="inter">ca-app-pub-1998515773839190/9834066062</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_settings">Settings</string>
